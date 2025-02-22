@@ -1,0 +1,82 @@
+[
+    {
+        "id": 4,
+        "name": "Science Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": 50,
+        "category": "Education",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-science-book-illustration_23-214934190"
+    },
+    {
+        "id": 5,
+        "name": "History Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": 75,
+        "category": "Education",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-history-book-illustration_23-214934191"
+    },
+    {
+        "id": 6,
+        "name": "Art Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": 60,
+        "category": "Art",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-art-book-illustration_23-214934192"
+    },
+    {
+        "id": 7,
+        "name": "Math Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": 55,
+        "category": "Education",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-math-book-illustration_23-214934193"
+    },
+    {
+        "id": 8,
+        "name": "Cooking Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": 40,
+        "category": "Food",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-cooking-book-illustration_23-214934194"
+    },
+    {
+        "id": 9,
+        "name": "Travel Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": 30,
+        "category": "Travel",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-travel-book-illustration_23-214934195"
+    },
+    {
+        "id": 10,
+        "name": "Fiction Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": 45,
+        "category": "Literature",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-fiction-book-illustration_23-214934196"
+    },
+    {
+        "id": 11,
+        "name": "Biography Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": 65,
+        "category": "Biography",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-biography-book-illustration_23-214934197"
+    },
+    {
+        "id": 12,
+        "name": "Poetry Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": 25,
+        "category": "Literature",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-poetry-book-illustration_23-214934198"
+    },
+    {
+        "id": 13,
+        "name": "Self-Help Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price": 35,
+        "category": "Self-Improvement",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-self-help-book-illustration_23-214934199"
+    }
+]
