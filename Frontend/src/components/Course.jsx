@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Cards from "./Cards";
 import axios from "axios";
-import { motion } from "framer-motion"; // Import motion from framer-motion
+import { motion } from "framer-motion"; 
+import bgImg from "../assets/bg.jpg"
 
 function Course() {
   const [book, setBook] = useState([]);
@@ -27,21 +28,32 @@ function Course() {
 
   return (
     <>
-      <div className="bg-white max-w-screen-2xl container mx-auto px-4 md:px-20 py-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-          {book.map((item, index) => (
-            <motion.div
-              key={item.id}
-              variants={cardVariants}
-              initial="hidden"
-              animate="visible"
-              transition={{ delay: index * 0.1 }} // Stagger animations
-            >
-              <Cards item={item} />
-            </motion.div>
-          ))}
-        </div>
-      </div>
+   <div className="relative min-h-screen w-full flex items-center justify-center px-4 md:px-20 py-16">
+  {/* Background Image with Overlay */}
+  <div
+    className="absolute inset-0 bg-black opacity-40"
+    style={{
+      backgroundImage: `url(${bgImg})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "repeat",
+    }}
+  ></div>
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+    {book.map((item, index) => (
+      <motion.div
+        key={item.id}
+        variants={cardVariants}
+        initial="hidden"
+        animate="visible"
+        transition={{ delay: index * 0.1 }} // Stagger animations
+      >
+        <Cards item={item} />
+      </motion.div>
+    ))}
+  </div>
+</div>
+
     </>
   );
 }

@@ -23,7 +23,6 @@ function About() {
   return (
     <>
       <Navbar />
-      {/* Hero Section */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -38,7 +37,6 @@ function About() {
 
       {/* Main Content */}
       <div className="max-w-screen-2xl container mx-auto px-4 py-12">
-        {/* Our Mission Section */}
         <motion.section
           variants={staggerContainer}
           initial="hidden"
@@ -54,7 +52,6 @@ function About() {
           </motion.p>
         </motion.section>
 
-        {/* Our Story Section */}
         <motion.section
           variants={staggerContainer}
           initial="hidden"
@@ -70,7 +67,6 @@ function About() {
           </motion.p>
         </motion.section>
 
-        {/* Why Choose Us Section */}
         <motion.section
           variants={staggerContainer}
           initial="hidden"
@@ -112,7 +108,6 @@ function About() {
           </div>
         </motion.section>
 
-        {/* Call-to-Action Section */}
         <motion.section
           variants={staggerContainer}
           initial="hidden"
